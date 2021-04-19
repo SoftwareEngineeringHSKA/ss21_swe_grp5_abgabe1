@@ -46,4 +46,4 @@ services:
       resources:
         limits:
           cpus: "2.0"
-          memory: 2048M
+          memory: 4096M

@@ -14,7 +14,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 = Entwicklerhandbuch
-Jürgen Zimmermann <Juergen.Zimmermann@HS-Karlsruhe.de>
+Florian Göbel <gofl1011@HS-Karlsruhe.de>
 :doctype: book
 :toc: left
 :sectanchors:

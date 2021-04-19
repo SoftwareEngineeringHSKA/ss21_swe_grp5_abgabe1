@@ -31,7 +31,7 @@ build:
     envTemplate:
       template: "{{.TAG}}"
   artifacts:
-  - image: docker.io/juergenzimmermann/film
+  - image: docker.io/gruppe5/film
     # https://skaffold.dev/docs/pipeline-stages/builders/docker
   local: {}
 deploy:

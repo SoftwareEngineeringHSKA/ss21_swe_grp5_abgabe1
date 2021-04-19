@@ -21,7 +21,7 @@
 
 = Beispiel mit MEAN, REST, GraphQL, Mongoose, JWT und Jest
 
-Jürgen Zimmermann <Juergen.Zimmermann@HS-Karlsruhe.de>
+Florian Göbel <gofl1011@HS-Karlsruhe.de>
 
 == Gliederung
 
