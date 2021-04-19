@@ -1,11 +1,11 @@
 {
-  "titel": "Neuer Film",
+  "titel": "Young Sheldon",
   "bewertung": 1,
-  "genre": "DOKUMENTATION",
+  "genre": "KOMOEDIE",
   "produktionsStudio": "DISNEY",
   "preis": 99.9,
   "rabatt": 0.3,
   "verfuegbarkeit": true,
-  "beschreibung": "Ein neuer Film",
+  "beschreibung": "Der neunjährige Sheldon Cooper lebt mit seiner Familie in Texas. Aufgrund seiner Leistungen wird Sheldon auf die Highschool geschickt. Dort besucht er zusammen mit seinem älteren Bruder George die 9. Klasse. Mit seiner außergewöhnlichen Art und seinen autistischen Zügen macht Sheldon seiner Familie oft das Leben schwer. In der Schule fällt er als jüngster Schüler der High-School immer wieder auf. Durch sein Interesse an Newton, Computern sowie Comics findet er bei seinen Mitschülern nur sehr wenig Anklang und gilt als Außenseiter, weshalb er nur einen Freund in der Schule hat.",
   "website": "https://test.de/"
 }

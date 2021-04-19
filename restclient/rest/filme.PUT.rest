@@ -40,7 +40,7 @@ Content-Type: application/json
 Authorization: Bearer {{login.response.body.$.token}}
 If-Match: "0"
 
-< .\json\film-3-put.json
+< .\json\film-put.json
 
 ### NICHT-Vorhandenen Film aktualisieren
 PUT https://{{host}}/filme/99999999-9999-9999-9999-999999999999

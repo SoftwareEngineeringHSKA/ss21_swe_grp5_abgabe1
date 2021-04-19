@@ -1,11 +1,11 @@
 {
-  "titel": "geänderter Titel",
+  "titel": "Dinner for One - GEAENDERT",
   "bewertung": 1,
-  "genre": "DOKUMENTATION",
+  "genre": "KOMOEDIE",
   "produktionsStudio": "DISNEY",
   "preis": 99.9,
   "rabatt": 0.3,
   "verfuegbarkeit": true,
-  "beschreibung": "Ein neuer Film",
+  "beschreibung": "Die Beschreibung wurde aktualisiert.",
   "website": "https://test.de/"
 }

@@ -92,7 +92,7 @@ export const testdaten: FilmData[] = [
         rabatt: 0.033,
         verfuegbarkeit: true,
         veroeffentlichung: new Date('2020-02-03'),
-        beschreibung: 'Anlässlich ihres 90. Geburtstages lädt Miss Sophie zum Geburtstagsdinner. Schlüpft nach- einander in die Rolle des Butlers James und spielt Szenen aus dem berühmten TV-Klassiker nach. Serviert Speis und Trank, sprecht einen Toast auf Miss Sophie aus – und vergesst nicht über den Tigerkopf zu stolpern!',
+        beschreibung: 'Anlaesslich ihres 90. Geburtstages laedt Miss Sophie zum Geburtstagsdinner. Schluepft nach - einander in die Rolle des Butlers James und spielt Szenen aus dem beruehmten TV-Klassiker nach. Serviert Speis und Trank, sprecht einen Toast auf Miss Sophie aus – und vergesst nicht ueber den Tigerkopf zu stolpern!',
         website: 'https://acme.com/',
         schauspieler: ['PITT', 'CLOONEY'],
         regisseur: [
