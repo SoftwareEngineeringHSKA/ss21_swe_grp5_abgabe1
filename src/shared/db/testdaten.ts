@@ -39,7 +39,8 @@ export const testdaten: FilmData[] = [
         rabatt: 0.011,
         verfuegbarkeit: true,
         veroeffentlichung: new Date('2020-02-01'),
-        beschreibung: 'Afrikas gigantische Landschaften sind atemberaubend in ihrer einmaligen Schönheit und faszinieren mit ihrer Vielfalt an Tieren, die oft einen Kampf um Leben und Tod führen. Zu den faszinierendsten Landschaften zählt das Okavango-Delta in Botsuana.',
+        beschreibung:
+            'Afrikas gigantische Landschaften sind atemberaubend in ihrer einmaligen Schönheit und faszinieren mit ihrer Vielfalt an Tieren, die oft einen Kampf um Leben und Tod führen. Zu den faszinierendsten Landschaften zählt das Okavango-Delta in Botsuana.',
         website: 'https://acme.at/',
         schauspieler: [''],
         regisseur: [
@@ -68,7 +69,8 @@ export const testdaten: FilmData[] = [
         rabatt: 0.022,
         verfuegbarkeit: true,
         veroeffentlichung: new Date('2020-02-02'),
-        beschreibung: 'Er ist der größte Hafen Deutschlands, aber nicht allein das macht den Hamburger Hafen so außergewöhnlich: Er ist auch der einzige große Seehafen, der mitten in einer Großstadt liegt. Den Seefahrern bereitet genau das aber auch Sorgen. Seine Lage macht ihn nicht gerade zum günstigsten Anlaufpunkt für moderne Containerriesen, die Waren aus aller Welt bringen. Unsere Dokumentation zeigt den Hamburger Hafen von allen Seiten und begleitet den Arbeitsalltag zwischen Hafenbecken, Kaianlagen und Containern.',
+        beschreibung:
+            'Er ist der größte Hafen Deutschlands, aber nicht allein das macht den Hamburger Hafen so außergewöhnlich: Er ist auch der einzige große Seehafen, der mitten in einer Großstadt liegt. Den Seefahrern bereitet genau das aber auch Sorgen. Seine Lage macht ihn nicht gerade zum günstigsten Anlaufpunkt für moderne Containerriesen, die Waren aus aller Welt bringen. Unsere Dokumentation zeigt den Hamburger Hafen von allen Seiten und begleitet den Arbeitsalltag zwischen Hafenbecken, Kaianlagen und Containern.',
         website: 'https://acme.biz/',
         schauspieler: ['MICHAEL', 'ANNA'],
         regisseur: [
@@ -92,7 +94,8 @@ export const testdaten: FilmData[] = [
         rabatt: 0.033,
         verfuegbarkeit: true,
         veroeffentlichung: new Date('2020-02-03'),
-        beschreibung: 'Anlaesslich ihres 90. Geburtstages laedt Miss Sophie zum Geburtstagsdinner. Schluepft nach - einander in die Rolle des Butlers James und spielt Szenen aus dem beruehmten TV-Klassiker nach. Serviert Speis und Trank, sprecht einen Toast auf Miss Sophie aus – und vergesst nicht ueber den Tigerkopf zu stolpern!',
+        beschreibung:
+            'Anlaesslich ihres 90. Geburtstages laedt Miss Sophie zum Geburtstagsdinner. Schluepft nach - einander in die Rolle des Butlers James und spielt Szenen aus dem beruehmten TV-Klassiker nach. Serviert Speis und Trank, sprecht einen Toast auf Miss Sophie aus – und vergesst nicht ueber den Tigerkopf zu stolpern!',
         website: 'https://acme.com/',
         schauspieler: ['PITT', 'CLOONEY'],
         regisseur: [
@@ -116,7 +119,8 @@ export const testdaten: FilmData[] = [
         rabatt: 0.044,
         verfuegbarkeit: true,
         veroeffentlichung: new Date('2020-02-04'),
-        beschreibung: 'Unser blauer Planet (Originaltitel: The Blue Planet) ist eine achtteilige Dokumentation, die sich mit dem Lebensraum Meer beschäftigt. Die Serie, deren deutscher Untertitel Die Naturgeschichte der Meere lautet, entstand unter Federführung der BBC und war erstmals im September 2001 im britischen Fernsehen zu sehen. Das Material der Serie wurde, unter Verwendung unveröffentlichter Sequenzen, dazu genutzt, den Kino-Dokumentarfilm Deep Blue zu produzieren.',
+        beschreibung:
+            'Unser blauer Planet (Originaltitel: The Blue Planet) ist eine achtteilige Dokumentation, die sich mit dem Lebensraum Meer beschäftigt. Die Serie, deren deutscher Untertitel Die Naturgeschichte der Meere lautet, entstand unter Federführung der BBC und war erstmals im September 2001 im britischen Fernsehen zu sehen. Das Material der Serie wurde, unter Verwendung unveröffentlichter Sequenzen, dazu genutzt, den Kino-Dokumentarfilm Deep Blue zu produzieren.',
         website: 'https://acme.de/',
         schauspieler: [],
         regisseur: [
@@ -140,7 +144,8 @@ export const testdaten: FilmData[] = [
         rabatt: 0.055,
         verfuegbarkeit: true,
         veroeffentlichung: new Date('2020-02-05'),
-        beschreibung: '1506 traf Papst Julius II. die Entscheidung, die konstantinische Basilika, die 319 auf dem Grab des Apostels Petrus errichtet wurde, durch einen Neubau zu ersetzen. Doch erst 1626 wurde Neu-St. Peter vollendet. Die berühmtesten Architekten und Künstler jener Zeit waren an dem Bau beteiligt, darunter Bramante, Michelangelo und Bernini. Die Dokumentation "Der Petersdom" erzählt die Geschichte dieser Kirche und spürt der Faszination nach, die von der Basilika ausgeht.',
+        beschreibung:
+            '1506 traf Papst Julius II. die Entscheidung, die konstantinische Basilika, die 319 auf dem Grab des Apostels Petrus errichtet wurde, durch einen Neubau zu ersetzen. Doch erst 1626 wurde Neu-St. Peter vollendet. Die berühmtesten Architekten und Künstler jener Zeit waren an dem Bau beteiligt, darunter Bramante, Michelangelo und Bernini. Die Dokumentation "Der Petersdom" erzählt die Geschichte dieser Kirche und spürt der Faszination nach, die von der Basilika ausgeht.',
         website: 'https://acme.es/',
         schauspieler: ['MUELLER'],
         regisseur: [

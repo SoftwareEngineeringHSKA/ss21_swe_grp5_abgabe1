@@ -40,7 +40,7 @@ const { expect } = chai;
 // -----------------------------------------------------------------------------
 // T e s t d a t e n
 // -----------------------------------------------------------------------------
-const neuerFilm: Omit<Film, 'spieldauer' | 'regisseur'>= {
+const neuerFilm: Omit<Film, 'spieldauer' | 'regisseur'> = {
     titel: 'Neu',
     bewertung: 1,
     genre: 'DOKUMENTATION',
@@ -68,7 +68,7 @@ const neuerFilmInvalid: object = {
     website: 'https://test.de/',
     schauspieler: ['Any Actor', 'Any Actrice'],
     regisseur: [{ nachname: 'Waltz', vorname: 'Christoph' }],
-    spieldauer: 120
+    spieldauer: 120,
 };
 const neuerFilmTitelExistiert: Omit<Film, 'spieldauer' | 'regisseur'> = {
     titel: 'Neu',
@@ -108,7 +108,9 @@ describe('POST /api/filme', () => {
 
     // (done?: DoneFn) => Promise<void | undefined | unknown> | void | undefined
     // close(callback?: (err?: Error) => void): this
-    afterAll(() => { server.close() });
+    afterAll(() => {
+        server.close();
+    });
 
     test('Neuer Film', async () => {
         // given
@@ -134,7 +136,7 @@ describe('POST /api/filme', () => {
         const response = await fetch(request);
 
         // then
-       // const { status } = response;
+        // const { status } = response;
         expect(HttpStatus.CREATED).to.be.equal(HttpStatus.CREATED);
 
         const location = response.headers.get('Location');
@@ -176,7 +178,9 @@ describe('POST /api/filme', () => {
         expect(genre).to.be.equal(
             'Das Genre eines Films kann nur DOKUMENTATION, DRAMA oder KOMOEDIE sein',
         );
-        expect(bewertung).to.be.equal('Eine Bewertung muss zwischen 0 und 5 liegen.');
+        expect(bewertung).to.be.equal(
+            'Eine Bewertung muss zwischen 0 und 5 liegen.',
+        );
         expect(produktionsStudio).to.be.equal(
             'Das Produktionsstudio eines Filmes muss DISNEY, UNIVERSAL oder WARNER BROS sein.',
         );

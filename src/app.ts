@@ -21,6 +21,7 @@
  * @packageDocumentation
  */
 
+import { corsHandler, helmetHandlers } from './security';
 import {
     create,
     deleteFn,
@@ -54,7 +55,7 @@ import type { ApolloServerExpressConfig } from 'apollo-server-express';
 import bearerToken from 'express-bearer-token';
 import compression from 'compression';
 import express from 'express';
-import { corsHandler, helmetHandlers } from './security';
+
 import { join } from 'path';
 import morgan from 'morgan';
 import rateLimit from 'express-rate-limit';

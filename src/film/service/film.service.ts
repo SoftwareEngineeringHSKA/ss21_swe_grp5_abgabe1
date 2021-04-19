@@ -53,6 +53,7 @@ export class FilmService {
 
         const filmModel = new FilmModel(film);
         const saved = await filmModel.save();
+        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         const id = saved._id!;
         logger.debug('FilmService.create(): id=%s');
 
@@ -162,6 +163,7 @@ export class FilmService {
             return new FilmNotExists(film._id);
         }
 
+        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         const version = updated.__v!;
         logger.debug('FilmService.update(): version=%d', version);
 
@@ -271,6 +273,7 @@ export class FilmService {
 
         const { titel } = film;
 
+        // eslint-disable-next-line security/detect-non-literal-fs-filename
         if (await FilmModel.exists({ titel })) {
             return new TitelExists(titel);
         }

@@ -39,7 +39,14 @@ const { expect } = chai;
 // -----------------------------------------------------------------------------
 // T e s t d a t e n
 // -----------------------------------------------------------------------------
-const geaenderterFilm: Omit<Film, 'regisseur' | 'schauspieler' | 'beschreibung' | 'spieldauer' | 'veroeffentlichung' > = {
+const geaenderterFilm: Omit<
+    Film,
+    | 'regisseur'
+    | 'schauspieler'
+    | 'beschreibung'
+    | 'spieldauer'
+    | 'veroeffentlichung'
+> = {
     titel: 'geaendert',
     bewertung: 1,
     genre: 'KOMOEDIE',
@@ -48,11 +55,18 @@ const geaenderterFilm: Omit<Film, 'regisseur' | 'schauspieler' | 'beschreibung' 
     rabatt: 0.033,
     verfuegbarkeit: true,
     website: 'https://acme.at/',
-
 };
 const idVorhanden = '00000000-0000-0000-0000-000000000003';
 
-const geaenderterFilmIdNichtVorhanden: Omit<Film, 'regisseur' | 'schauspieler' | 'beschreibung' | 'spieldauer' | 'veroeffentlichung' | 'website'> = {
+const geaenderterFilmIdNichtVorhanden: Omit<
+    Film,
+    | 'regisseur'
+    | 'schauspieler'
+    | 'beschreibung'
+    | 'spieldauer'
+    | 'veroeffentlichung'
+    | 'website'
+> = {
     titel: 'nicht vorhanden',
     bewertung: 1,
     genre: 'KOMOEDIE',
@@ -107,7 +121,9 @@ describe('PUT /api/filme/:id', () => {
         loginUri = `${baseUri}${PATHS.login}`;
     });
 
-    afterAll(() => { server.close() });
+    afterAll(() => {
+        server.close();
+    });
 
     test('Vorhandenen Film aendern', async () => {
         // given
@@ -186,7 +202,9 @@ describe('PUT /api/filme/:id', () => {
         expect(genre).to.be.equal(
             'Das Genre eines Films kann nur DOKUMENTATION, DRAMA oder KOMOEDIE sein',
         );
-        expect(bewertung).to.be.equal('Eine Bewertung muss zwischen 0 und 5 liegen.');
+        expect(bewertung).to.be.equal(
+            'Eine Bewertung muss zwischen 0 und 5 liegen.',
+        );
         expect(produktionsStudio).to.be.equal(
             'Das Produktionsstudio eines Filmes muss DISNEY, UNIVERSAL oder WARNER BROS sein.',
         );
