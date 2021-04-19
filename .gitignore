@@ -25,6 +25,8 @@ snyk-*.log
 log
 *.log
 .scannerwork
+package.json
+sonar-project.properties
 
 # IDEs und Editoren
 .idea

@@ -771,7 +771,7 @@ Werten für Benutzername und Passwort aus der Atlas-Konfiguration:
 ### Deployment für Heroku
 
 Für das erstmalige Deployment und nach künftigen Codeänderungen gibt man
-in der Kommandopalette (durch `<F1>`) das Kommando `git push heroku master` ein.
+in der Kommandopalette (durch `<F1>`) das Kommando `git push heroku main` ein.
 Durch diese Push-Operation von Git wird in Heroku ein _slug_ erstellt.
 Dabei wird die Anwendung gepackt und komprimiert, so dass sie einschließend in
 einem _dyno_ (leichtgewichtiger Linux-Container) ablaufen kann.
