@@ -19,94 +19,29 @@
 
 // https://asciidoctor.org/docs/asciidoctor-revealjs
 
-= Beispiel mit MEAN, REST, GraphQL, Mongoose, JWT und Jest
+= Abgabe 1 - Gruppe 5
 
 Florian Göbel <gofl1011@HS-Karlsruhe.de>
 
 == Gliederung
 
-* Node
-* Express und REST
-* GraphQL
-* Mongoose
-* JWT
-* Jest usw.
+* Hostname und Date
+* Projektplanung
+* Docker
+* REST
 
-== Node
+=== Projektplanung
 
-* Infrastruktur
-* Entwicklungsumgebung
-* Programmierung
-* Dokumentation
+* Projektplan
+* Git
 
-=== Infrastruktur
 
-* package.json
-* node_modules
-* npm
-* nodemon
-* ts-node
-* Heroku und Buildpack
-* Jenkins und Docker
+=== Docker
 
-=== Entwicklungsumgebung
+* Docker Desktop
+* Hadolint
+* Dive
 
-* VS Code
-* ESLint und SonarQube
-* Prettier
-* RESTclient, auch für GraphQL
+=== REST
 
-=== Programmierung
-
-* Server einschl. Listener
-* ES 2015+
-* TypeScript
-
-=== Dokumentation
-
-* AsciiDoctor mit PlantUML
-* reveal.js
-* _TODO: Jekyll_
-
-== Express und REST
-
-* Router
-* Handler
-
-== GraphQL und Apollo Server
-
-* typeDefs und gql
-* resolver
-
-== Mongoose
-
-* Pattern _Active Record_
-* Document
-* JSON
-* GridFS
-
-== JWT
-
-* Private und Public Key
-* Header
-* Payload
-* Signature
-
-=== Header
-
-* alg
-* typ
-
-=== Payload
-
-* iat
-* exp
-* iss
-
-== Jest usw.
-
-* Jest
-* ts-jest
-* Chai
-* fetch
-* Istanbul
+* restclient
